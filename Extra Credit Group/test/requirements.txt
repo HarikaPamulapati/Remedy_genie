@@ -1,0 +1,22 @@
+# requirements.txt
+
+gradio
+
+# Standard CPU PyTorch and transformers
+# Let transformers/accelerate pick compatible torch version
+torch
+transformers
+accelerate # Keep accelerate, useful for model loading helpers
+unsloth
+
+# Other standard dependencies
+sentencepiece
+protobuf
+packaging
+peft
+
+
+# Library to download model files from the Hub
+huggingface_hub
+
+pillow
